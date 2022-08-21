@@ -1,0 +1,36 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[4]:
+
+
+list = [1,2,3,4,5,6,7,8,9] 
+
+even, odd= 0, 0
+
+for i in list: 
+
+    if i % 2 == 0: 
+
+        even += 1
+
+    else: 
+
+        odd += 1          
+
+print("Even numbers in the list are : ", even) 
+
+print("Odd numbers in the list are : ", odd)
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
